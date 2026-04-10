@@ -30,7 +30,7 @@ Foram realizadas modificações visuais e funcionais, como:
 ### Clone o repositório
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/Gabriel-Garcia-Andrade/react-admin-dashboard.git
 ```
 
 ### Acesse a pasta do projeto
