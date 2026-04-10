@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# React Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto de dashboard administrativo responsivo desenvolvido em React, com foco na prática de conceitos fundamentais como organização da interface em componentes, manipulação de estados e criação de interfaces dinâmicas.
 
-## Available Scripts
+## Sobre o projeto
 
-In the project directory, you can run:
+Este projeto foi desenvolvido com base em um template de dashboard em React, com adaptações solicitadas em atividade prática de front-end.
 
-### `yarn start`
+Foram realizadas modificações visuais e funcionais, como:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- alteração dos itens da barra lateral
+- mudança da paleta de cores para tons de verde
+- atualização de valores dos cards
+- alteração de informações na seção de mensagens
+- atualização dos status da tabela
+- ajustes de layout e estilização
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias utilizadas
 
-### `yarn test`
+- React
+- CSS
+- Material UI
+- ApexCharts
+- Framer Motion
+- React Circular Progressbar
+- React Unicons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação e execução
 
-### `yarn build`
+### Clone o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Acesse a pasta do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd nome-do-projeto
+```
 
-### `yarn eject`
+### Instale as dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instale os pacotes necessários
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para o funcionamento do projeto, também foi necessário instalar os seguintes pacotes:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install react-circular-progressbar@latest
+npm install --save react-circular-progressbar
+```
 
-## Learn More
+### Execute o projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto será aberto em:
 
-### Code Splitting
+```bash
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Alterações realizadas
 
-### Analyzing the Bundle Size
+As principais alterações feitas no projeto foram:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- mudança dos nomes dos itens da sidebar
+- customização das cores do dashboard
+- ajuste dos valores do card de Revenue
+- alteração dos dados do gráfico expandido
+- mudança da imagem e do texto de uma das atualizações
+- atualização dos status da tabela conforme solicitado
+- criação da tabela com Material UI
 
-### Making a Progressive Web App
+## Objetivo acadêmico
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse projeto foi desenvolvido como parte do Programa de Talentos da empresa, etapa que todos os estagiários precisam realizar ao longo da trilha de aprendizagem. O objetivo dessa atividade foi praticar conceitos de React, estilização com CSS e organização da interface em componentes, por meio da construção e personalização de um dashboard administrativo.
