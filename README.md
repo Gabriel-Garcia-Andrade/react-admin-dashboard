@@ -50,7 +50,6 @@ npm install
 Para o funcionamento do projeto, também foi necessário instalar os seguintes pacotes:
 
 ```bash
-npm install react-circular-progressbar@latest
 npm install --save react-circular-progressbar
 ```
 
